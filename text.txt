@@ -1,1 +1,3 @@
 Hi everyone this is an example!
+
+Color Themes for Terminal in VS CODE: https://glitchbone.github.io/vscode-base16-term/#/porple
