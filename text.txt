@@ -1,3 +1,32 @@
 Hi everyone this is an example!
 
 Color Themes for Terminal in VS CODE: https://glitchbone.github.io/vscode-base16-term/#/porple
+
+These are my notes 
+
+Recursively Add Video 
+    When you add a heirechy or folders withing folders and also files. 
+    your git status will only show you the directory folder where all the changes were made. 
+    to show all the files changed within all these folders is by using 
+
+        git add . ----------> This will add all the files changed Recusively.
+
+Backing out changes 
+    When you modify a file you can add and stage those changes by using 
+        
+        git add { name of the file }
+    
+    Once this is done we are staging the changes in the file. if by any chance the 
+    user doesnt want those changes anymore and they would like to disregard those changes we can use 
+
+        git reset HEAD < File Name >   ------------> This unstages the changes made in that particular file.
+
+    After the user would have to use 
+
+        git checkout -- < File Name >   ------------> This is used to discard any changes from the file. 
+
+    Next time you open the file you will see that the changes are not there anymore.
+
+
+
+    
