@@ -28,5 +28,14 @@ Backing out changes
     Next time you open the file you will see that the changes are not there anymore.
 
 
+Renaming and Moving files Video
+    
+    The following git command will automatically let git know the name of the file was renamed.
+
+        git mv < File Name > < File New Name >  -------------> this is used to rename a file in git this is also to move the file. 
+    
+
+        git mv < File New Name > < Orginal FIle Name >
 
     
+
